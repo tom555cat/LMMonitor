@@ -1,0 +1,16 @@
+PODS:
+  - LMMonitor (0.1.0)
+
+DEPENDENCIES:
+  - LMMonitor (from `../`)
+
+EXTERNAL SOURCES:
+  LMMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LMMonitor: ea48b10184344bdf061bb8a45ce3c429d69ba110
+
+PODFILE CHECKSUM: 2ca92b215e1de31bfaf57f9f951d72868b48f6da
+
+COCOAPODS: 1.6.0.beta.1

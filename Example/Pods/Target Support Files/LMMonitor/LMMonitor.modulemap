@@ -1,0 +1,6 @@
+framework module LMMonitor {
+  umbrella header "LMMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

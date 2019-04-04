@@ -8,6 +8,6 @@ target 'LMMonitor_Example' do
   target 'LMMonitor_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    #pod 'FBSnapshotTestCase'
   end
 end
