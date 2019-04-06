@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "bjtu_ht@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = V26EY9ZA87;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -317,15 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LMMonitor_Example/Pods-LMMonitor_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LMMonitor/LMMonitor.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMMonitor.framework",
 			);
@@ -489,6 +488,7 @@
 			baseConfigurationReference = 9295F3CEBF0039C4B86541B9 /* Pods-LMMonitor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V26EY9ZA87;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LMMonitor/LMMonitor-Prefix.pch";
 				INFOPLIST_FILE = "LMMonitor/LMMonitor-Info.plist";
@@ -504,6 +504,7 @@
 			baseConfigurationReference = F5888AB26EF4757C0978BCA3 /* Pods-LMMonitor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V26EY9ZA87;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LMMonitor/LMMonitor-Prefix.pch";
 				INFOPLIST_FILE = "LMMonitor/LMMonitor-Info.plist";

@@ -17,6 +17,27 @@
 		8D2FB185A622A4D99E5C87A77425C5DA /* TestClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C7069F9E5513A0FC367823B20DD03 /* TestClassA.m */; };
 		C097E84AE190F4CB709976C0CB440C39 /* Pods-LMMonitor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F149D7C67F8D99E9FE344118F52E9FE /* Pods-LMMonitor_Example-dummy.m */; };
 		DBBDE315332C4583492D3ED0A834C026 /* LMMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B0FA819058477F23EAA47640855B1 /* LMMonitor-dummy.m */; };
+		E97433102258557D0013A788 /* LMMonitorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E974330E2258557D0013A788 /* LMMonitorManager.h */; };
+		E97433112258557D0013A788 /* LMMonitorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E974330E2258557D0013A788 /* LMMonitorManager.h */; };
+		E97433122258557D0013A788 /* LMMonitorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E974330E2258557D0013A788 /* LMMonitorManager.h */; };
+		E97433132258557D0013A788 /* LMMonitorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E974330F2258557D0013A788 /* LMMonitorManager.m */; };
+		E97433142258557D0013A788 /* LMMonitorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E974330F2258557D0013A788 /* LMMonitorManager.m */; };
+		E97433152258557D0013A788 /* LMMonitorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E974330F2258557D0013A788 /* LMMonitorManager.m */; };
+		E9743318225857B50013A788 /* LMMonitorCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E9743316225857B50013A788 /* LMMonitorCache.h */; };
+		E9743319225857B50013A788 /* LMMonitorCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E9743316225857B50013A788 /* LMMonitorCache.h */; };
+		E974331A225857B50013A788 /* LMMonitorCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E9743316225857B50013A788 /* LMMonitorCache.h */; };
+		E974331B225857B50013A788 /* LMMonitorCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E9743317225857B50013A788 /* LMMonitorCache.m */; };
+		E974331C225857B50013A788 /* LMMonitorCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E9743317225857B50013A788 /* LMMonitorCache.m */; };
+		E974331D225857B50013A788 /* LMMonitorCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E9743317225857B50013A788 /* LMMonitorCache.m */; };
+		E9743320225858790013A788 /* LMEventModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E974331E225858790013A788 /* LMEventModel.h */; };
+		E9743321225858790013A788 /* LMEventModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E974331E225858790013A788 /* LMEventModel.h */; };
+		E9743322225858790013A788 /* LMEventModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E974331E225858790013A788 /* LMEventModel.h */; };
+		E9743323225858790013A788 /* LMEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E974331F225858790013A788 /* LMEventModel.m */; };
+		E9743324225858790013A788 /* LMEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E974331F225858790013A788 /* LMEventModel.m */; };
+		E9743325225858790013A788 /* LMEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E974331F225858790013A788 /* LMEventModel.m */; };
+		E9743328225858A70013A788 /* LMEventProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E9743327225858A70013A788 /* LMEventProtocol.h */; };
+		E9743329225858A70013A788 /* LMEventProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E9743327225858A70013A788 /* LMEventProtocol.h */; };
+		E974332A225858A70013A788 /* LMEventProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E9743327225858A70013A788 /* LMEventProtocol.h */; };
 		F2624E1D642D00EAD13C5D7FFDAFE58E /* Pods-LMMonitor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B17B77E1CAA1777A96D0BE3E696A5D /* Pods-LMMonitor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -42,33 +63,40 @@
 		167C7069F9E5513A0FC367823B20DD03 /* TestClassA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestClassA.m; path = LMMonitor/TestClassA.m; sourceTree = "<group>"; };
 		1988BED3697B78E34B69BCAC4E7EF6FC /* Pods-LMMonitor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LMMonitor_Example.modulemap"; sourceTree = "<group>"; };
 		307E94B02D990E79670D79CDD6D92378 /* Pods-LMMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		31CAF67AB566CB9FCA0252D582F5498A /* Pods_LMMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LMMonitor_Tests.framework; path = "Pods-LMMonitor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CAF67AB566CB9FCA0252D582F5498A /* Pods_LMMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F149D7C67F8D99E9FE344118F52E9FE /* Pods-LMMonitor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LMMonitor_Example-dummy.m"; sourceTree = "<group>"; };
 		3FFCDE20E236F2E42D224B3583D2DCE6 /* Pods-LMMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		47606724CD1C61D700EF6E4BF89FECA7 /* LMMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMMonitor.framework; path = LMMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47606724CD1C61D700EF6E4BF89FECA7 /* LMMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LMMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCBC52CADFBB21612D45BE70FD58702 /* TestClassA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestClassA.h; path = LMMonitor/TestClassA.h; sourceTree = "<group>"; };
 		591A93801BC696083F164DFF2B8D1F0D /* Pods-LMMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B04DC53A791BE876BBA560717B2D8E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6B04DC53A791BE876BBA560717B2D8E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6BAAF7BB87CCFA29ECCCBA2D6D32BC27 /* Pods-LMMonitor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LMMonitor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6BB62E42B6A428A5DC95583E7489B566 /* Pods-LMMonitor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMMonitor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		751090C1F7F0DAF01C0B2B6D2319B635 /* Pods-LMMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		811D70A4895B3A36F5CDF03BCA21DA7C /* LMMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LMMonitor.modulemap; sourceTree = "<group>"; };
 		8AD86DA191A00C650CEFBD82CECF495A /* Pods-LMMonitor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMMonitor_Example-Info.plist"; sourceTree = "<group>"; };
-		8F739D506EF0C4B19BCD7E3348372880 /* LMMonitor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LMMonitor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F739D506EF0C4B19BCD7E3348372880 /* LMMonitor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LMMonitor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		948C8E61DC31660A0D60DA0F19744511 /* Pods-LMMonitor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMMonitor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9B1B0FA819058477F23EAA47640855B1 /* LMMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMMonitor-dummy.m"; sourceTree = "<group>"; };
-		AB236B6DE4184805BA8E46A79DC96967 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AB236B6DE4184805BA8E46A79DC96967 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AD310EB98506DD158AA3315D7B834CEB /* LMMonitor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMMonitor.xcconfig; sourceTree = "<group>"; };
 		BC6087FC323FC88F24C9E136FF969FDD /* Pods-LMMonitor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LMMonitor_Tests-dummy.m"; sourceTree = "<group>"; };
 		BCB3D5F78BCFCA50B5FDDFD3A7EAB8D1 /* LMMonitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LMMonitor-Info.plist"; sourceTree = "<group>"; };
 		BF670B63BA3C7E5BF6FA3FC9FC5510B3 /* Pods-LMMonitor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMMonitor_Tests-Info.plist"; sourceTree = "<group>"; };
 		C8F69A70633CED589675D4888D363FAB /* LMMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMMonitor-umbrella.h"; sourceTree = "<group>"; };
 		CA6EE86337EF5BE92AC27B81731FE135 /* Pods-LMMonitor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LMMonitor_Tests.modulemap"; sourceTree = "<group>"; };
-		CB86156A8E3C02B438A100DB43D58632 /* Pods_LMMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LMMonitor_Example.framework; path = "Pods-LMMonitor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB86156A8E3C02B438A100DB43D58632 /* Pods_LMMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8ED8293FC62C690BAE0FCE6081C452A /* LMMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMMonitor-prefix.pch"; sourceTree = "<group>"; };
 		E7D21943CE9D7F9BD64177F64380E019 /* Pods-LMMonitor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LMMonitor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E974330E2258557D0013A788 /* LMMonitorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMMonitorManager.h; sourceTree = "<group>"; };
+		E974330F2258557D0013A788 /* LMMonitorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMMonitorManager.m; sourceTree = "<group>"; };
+		E9743316225857B50013A788 /* LMMonitorCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMMonitorCache.h; sourceTree = "<group>"; };
+		E9743317225857B50013A788 /* LMMonitorCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMMonitorCache.m; sourceTree = "<group>"; };
+		E974331E225858790013A788 /* LMEventModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMEventModel.h; sourceTree = "<group>"; };
+		E974331F225858790013A788 /* LMEventModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMEventModel.m; sourceTree = "<group>"; };
+		E9743327225858A70013A788 /* LMEventProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMEventProtocol.h; sourceTree = "<group>"; };
 		EA3619355F99B1FFFABA3AA2A1A548F5 /* Pods-LMMonitor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LMMonitor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F1B17B77E1CAA1777A96D0BE3E696A5D /* Pods-LMMonitor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LMMonitor_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +178,13 @@
 				167C7069F9E5513A0FC367823B20DD03 /* TestClassA.m */,
 				536FADDBE007B2351B0CBC8FC745A895 /* Pod */,
 				C6F55B77E8864A247155591C0CC4455A /* Support Files */,
+				E974330E2258557D0013A788 /* LMMonitorManager.h */,
+				E974330F2258557D0013A788 /* LMMonitorManager.m */,
+				E9743316225857B50013A788 /* LMMonitorCache.h */,
+				E9743317225857B50013A788 /* LMMonitorCache.m */,
+				E974331E225858790013A788 /* LMEventModel.h */,
+				E974331F225858790013A788 /* LMEventModel.m */,
+				E9743327225858A70013A788 /* LMEventProtocol.h */,
 			);
 			name = LMMonitor;
 			path = ../..;
@@ -231,7 +266,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9743321225858790013A788 /* LMEventModel.h in Headers */,
+				E9743319225857B50013A788 /* LMMonitorCache.h in Headers */,
+				E97433112258557D0013A788 /* LMMonitorManager.h in Headers */,
 				777D1D3AB48FF7892AAFF0FCB867D4A6 /* Pods-LMMonitor_Example-umbrella.h in Headers */,
+				E9743329225858A70013A788 /* LMEventProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3316E14A7C394F362D32D906F563C7E9 /* LMMonitor-umbrella.h in Headers */,
+				E97433102258557D0013A788 /* LMMonitorManager.h in Headers */,
+				E9743328225858A70013A788 /* LMEventProtocol.h in Headers */,
+				E9743320225858790013A788 /* LMEventModel.h in Headers */,
 				382BCAB7B515F74D50592AECF8FC4473 /* TestClassA.h in Headers */,
+				E9743318225857B50013A788 /* LMMonitorCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +291,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9743322225858790013A788 /* LMEventModel.h in Headers */,
+				E974331A225857B50013A788 /* LMMonitorCache.h in Headers */,
+				E97433122258557D0013A788 /* LMMonitorManager.h in Headers */,
 				F2624E1D642D00EAD13C5D7FFDAFE58E /* Pods-LMMonitor_Tests-umbrella.h in Headers */,
+				E974332A225858A70013A788 /* LMEventProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +415,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E974331B225857B50013A788 /* LMMonitorCache.m in Sources */,
 				DBBDE315332C4583492D3ED0A834C026 /* LMMonitor-dummy.m in Sources */,
+				E9743323225858790013A788 /* LMEventModel.m in Sources */,
 				8D2FB185A622A4D99E5C87A77425C5DA /* TestClassA.m in Sources */,
+				E97433132258557D0013A788 /* LMMonitorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +428,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C097E84AE190F4CB709976C0CB440C39 /* Pods-LMMonitor_Example-dummy.m in Sources */,
+				E9743324225858790013A788 /* LMEventModel.m in Sources */,
+				E974331C225857B50013A788 /* LMMonitorCache.m in Sources */,
+				E97433142258557D0013A788 /* LMMonitorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +439,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE72AE6282043971EC9F20B286494AF /* Pods-LMMonitor_Tests-dummy.m in Sources */,
+				E9743325225858790013A788 /* LMEventModel.m in Sources */,
+				E974331D225857B50013A788 /* LMMonitorCache.m in Sources */,
+				E97433152258557D0013A788 /* LMMonitorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
